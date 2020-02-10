@@ -1,14 +1,25 @@
-body {
+#background {
     font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    background-blend-mode: lighten;
+    background: url('../picture/background.jpg');
+    padding: 10px 10px 10px 10px;
+}
+
+#frontpage {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    background-blend-mode: lighten;
+    background-color: white;
+    margin: 30px 100px 30px 100px;
 }
 
 
 #bar:link,#bar:visited {
     text-decoration: none;
-    background-color: lightpink;
+    background-color: white;
     border: 1px solid black;
     opacity: 0.7;
-    width: 200px;
     text-align: center;
     display: block;
 }
@@ -18,31 +29,42 @@ body {
 
 #tag{
     color: darkred;
-    background-color: lightsalmon;
+    background-color: lightblue;
     text-align: center;
 }
 
 p {
     font-family: "Comic Sans MS", cursive, sans-serif;
-    color: grey;
-    font-size: 180%;
+    color: purple;
+    margin: 5px;
+    font-size: 150%;
+    text-align: center;
 }
 h1 {
-    color: green;
+    color: white;
     font-size: 280%;
-    background-color: lightgreen;
-    opacity: 0.5;
+    opacity: 0.8;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+    background: url('../picture/background_front.jpg');
+}
+
+h2{
+    color: darkslategray;
+    font-size: 150%;
     text-align: center;
 }
 
-h2,h3 {
-    color: orange;
+h3{
+    color: darkslategray;
     font-size: 150%;
-    text-align: left;
-}
+    margin-left: 30%;
+} 
 
 #github_img{
-    margin-left: 600px;
+    margin-left: 40%;
     margin-right: auto;
 }
 
@@ -51,14 +73,21 @@ h2,h3 {
     margin-right: auto;
 }
 
+#bottom_img{
+    margin-left: 25%;
+}
+
 .table1,.table2{  
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 30%;
+    width: 30%;
     color: purple;
     font-size: 130%;
 }
 
 .table1 > li:hover,.table2 > li:hover{  
-    background-color: lightpink;
+    background-color: white;
     border: 1px solid black;
+    padding: 5px;
     font-size: 120%;
 }
